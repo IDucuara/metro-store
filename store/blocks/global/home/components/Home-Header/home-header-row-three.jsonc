@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#desktop--three": {
+        "title":"Season Banner",
+        "children": [
+          "image#header-banner"
+          
+        ]
+      },
+      "image#header-banner":{
+        "props":{
+            "src": "assets/img/banner.jpg"
+        }
+      }
+}

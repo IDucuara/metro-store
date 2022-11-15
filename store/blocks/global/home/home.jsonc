@@ -1,0 +1,69 @@
+{
+    "store.home": {
+        "blocks": [
+            
+           /*  "flex-layout.row#home__banner", */
+            "slider-layout#home__slider--children",
+            "slider-layout#home__slider2--children",
+            "rich-text"
+            /* "flex-layout.row#home__section--five" */
+            
+        ]
+    },
+
+   /*  //section one Season Promo static Banner
+    "flex-layout.row#home__banner":{
+        "title":"Season PromoBanner",
+        "children":[
+            "flex-layout.row#section__one--image"
+        ],
+        "props":{
+            "blockClass":"home__section--one"
+        }
+
+    },
+    "flex-layout.row#section__one--image":{
+        "children":[
+            "image#home__banner"
+        ]
+    },
+    "image#home__banner": {
+        "props": {
+            "src": "assets/img/banner.jpg"
+        }
+    }, */
+
+   
+
+//section 4 Supermarket
+"rich-text": { 
+    "props": { 
+      "text": "Supermercado",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+      
+    }
+}
+/* "flex-layout.row#home__section--five":{
+"title":"Season PromoBanner",
+        "children":[
+            "flex-layout.row#section__one--image"
+        ],
+        "props":{
+            "blockClass":"home__section--one"
+        }
+
+    },
+    "flex-layout.row#section__one--image":{
+        "children":[
+            "image#home__banner"
+        ]
+    },
+    "image#home__banner": {
+        "props": {
+            "src": "assets/img/banner.jpg"
+        }
+    
+} */
+}
