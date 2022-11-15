@@ -1,15 +1,15 @@
 //section two Promos Slider
-{    "slider--layout#home__slider--children": {
+{
+    "slider-layout#home__slider--children": {
         "title": "Slider promotions",
         "children": [
-            "image#home__slider-one",
+            "image#home__slider--one",
             "image#home__slider--two",
             "image#home__slider--three",
             "image#home__slider--four",
             "image#home__slider--five",
             "image#home__slider--six",
             "image#home__slider--seven"
-            
         ],
         "props": {
             "itemsPerPage": {
@@ -58,7 +58,7 @@
     },
     "image#home__slider--seven": {
         "props": {
-          "src": "assets/img/slider__img7.jpg"
+            "src": "assets/img/slider__img7.jpg"
         }
-      }
     }
+}

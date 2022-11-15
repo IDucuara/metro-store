@@ -1,0 +1,117 @@
+//setion 3 icons slider
+{
+    "slider-layout#home__slider2--children":{
+    "title":"Icons section",
+    "children": [
+        "image#home__slider2--one",
+        "image#home__slider2--two",
+        "image#home__slider2--three",
+        "image#home__slider2--four",
+        "image#home__slider2--five",
+        "image#home__slider2--six",
+        "image#home__slider2--seven",
+        "image#home__slider2--eight",
+        "image#home__slider2--nine",
+        "image#home__slider2--ten",
+        "image#home__slider2--eleven",
+        "image#home__slider2--twelve",
+        "image#home__slider2--thirteen",
+        "image#home__slider2--fourteen",
+        "image#home__slider2--fifteen",
+        "image#home__slider2--sixteen"
+        
+    ],
+    "props":{
+        "itemsPerPage": {
+            "desktop": 7,
+            "tablet": 5,
+            "mobile": 2
+        },
+        "infinite": false,
+        "blockClass": "home__slider2",
+       
+        "arrowSize": 25
+    }
+},
+"image#home__slider2--one": {
+    "props": {
+        "src": "assets/icons/icon1.png"
+       
+    }
+},
+"image#home__slider2--two": {
+    "props": {
+        "src": "assets/icons/icon2.png"
+    }
+},
+"image#home__slider2--three": {
+    "props": {
+        "src": "assets/icons/icon3.png"
+    }
+},
+"image#home__slider2--four": {
+    "props": {
+        "src": "assets/icons/icon4.png"
+    }
+},
+"image#home__slider2--five": {
+    "props": {
+        "src": "assets/icons/icon5.png"
+    }
+},
+"image#home__slider2--six": {
+    "props": {
+        "src": "assets/icons/icon6.png"
+    }
+},
+"image#home__slider2--seven": {
+    "props": {
+        "src": "assets/icons/icon7.png"
+    }
+},
+"image#home__slider2--eight": {
+    "props": {
+        "src": "assets/icons/icon8.png"
+    }
+},
+"image#home__slider2--nine": {
+    "props": {
+        "src": "assets/icons/icon9.png"
+    }
+},
+"image#home__slider2--ten": {
+    "props": {
+        "src": "assets/icons/icon10.png"
+    }
+},
+"image#home__slider2--eleven": {
+    "props": {
+        "src": "assets/icons/icon11.png"
+    }
+},
+ "image#home__slider2--twelve": {
+    "props": {
+        "src": "assets/icons/icon12.png"
+    }
+},
+"image#home__slider2--thirteen": {
+    "props": {
+        "src": "assets/icons/icon13.png"
+    }
+},
+"image#home__slider2--fourteen": {
+    "props": {
+        "src": "assets/icons/icon14.png"
+    }
+},
+"image#home__slider2--fifteen": {
+    "props": {
+        "src": "assets/icons/icon15.png"
+    }
+},
+"image#home__slider2--sixteen": {
+    "props": {
+        "src": "assets/icons/icon16.png"
+    }
+}
+}
