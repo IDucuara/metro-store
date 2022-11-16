@@ -9,8 +9,8 @@
       "blockClass": "sticky-header"
     },
     "children": [
-      "flex-layout.row#desktop--one",
-      "flex-layout.row#desktop--two",
+      "header-row#desktop--one",
+      "header-row#desktop--two",
       "flex-layout.row#desktop--three"
     ]
   }

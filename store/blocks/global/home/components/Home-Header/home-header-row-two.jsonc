@@ -1,65 +1,150 @@
 {
-    "flex-layout.row#desktop--two": {
-        "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "fullWidth": true
-        },
-        "children": [
-          "flex-layout.col#logo-desktop",
-          "flex-layout.col#spacer",
-          "search-bar",
-          "locale-switcher",
-          "login",
-          "minicart.v2"
-        ]
-      },
-      "flex-layout.col#spacer": {
-        "props": {
-          "width": "grow"
-        }
-      },
-      "flex-layout.col#logo-desktop": {
-        "props": {
-          "verticalAlign": "middle"
-        },
-        "children": [
-          "logo"
-        ]
-      },
-      "logo": {
-        "props": {
-          "title": "Logo",
-          "href": "/",
-          "url": "assets/brand/logo.png",
-          "width": "60"
-        }
-      },
-      "header-layout.mobile": {
-        "children": [
-          "sticky-layout#mobile"
-        ]
-      },
-      "sticky-layout#mobile": {
-        "children": [
-          "flex-layout.row#mobile"
-        ]
-      },
-      "flex-layout.row#mobile": {
-        "children": [
-          "drawer",
-          "logo",
-          "flex-layout.col#spacer",
-          "login",
-          "minicart.v2"
-        ],
-        "props": {
-          "blockClass": "main-header-mobile",
-          "preventHorizontalStretch": true,
-          "preserveLayoutOnMobile": true,
-          "fullWidth": true
-        }
+  "header-row#desktop--two": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "header__desktop2"
+    },
+    "children": [
+      "drawer",
+      "menu#header__desktop2",
+      "minicart.v2"
+    ]
+  },
+  "drawer": {
+    "children": []
+  },
+  "menu#header__desktop2": {
+    "props": {
+      "textColor": "#ffffff"
+    },
+    "children": [
+      "menu-item#department__one",
+      "menu-item#department__two",
+      "menu-item#department__three",
+      "menu-item#department__four",
+      "menu-item#department__five",
+      "menu-item#department__six"
+    ]
+  },
+  "menu-item#department__one": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.tiendasmetro.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "CATEGORIAS"
       }
+    },
+    "blocks": [
+      "submenu.accordion#category__one"
+    ]
+  },
+  "submenu.accordion#category__one": {
+    "children": [
+      "menu#department__one"
+    ]
+  },
+  "menu#department__one": {
+    "children": [
+      "slider-layout#home__slider--children"
+    ]
+  },
+  "menu-item#department__two": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.tiendasmetro.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "OFERTAS"
+      }
+    }
+  },
+  "menu-item#department__three": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.tiendasmetro.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "CATÁLOGOS"
+      }
+    }
+  },
+  "menu-item#department__four": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.tiendasmetro.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "TARJETA REGALO VIRTUAL"
+      }
+    }
+  },
+  "menu-item#department__five": {
+  
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "noFollow":true,
+        "tagTitle": "TIENDAS Y COBERTURA",
+        "orientation": "vertical",
+        "text": "TIENDAS Y COBERTURA"
+      }
+    }
+    },
+  
+  
+
+
+"menu-item#department__six": {
+  "props": {
+    "id": "category-ne",
+    "type": "custom",
+    "itemProps": {
+      "type": "external",
+      "href": "https://www.tiendasmetro.co/",
+      "noFollow": true,
+      "tagTitle": "google title",
+      "text": "SERVICIOS"
+    }
+  }
+},
+"header-layout.mobile": {
+  "children": [
+    "sticky-layout#mobile"
+  ]
+},
+"sticky-layout#mobile": {
+  "children": [
+    "flex-layout.row#mobile"
+  ]
+},
+"flex-layout.row#mobile": {
+  "children": [
+    "drawer",
+    "minicart.v2"
+  ],
+  "props": {
+    "blockClass": "main-header-mobile",
+    "preventHorizontalStretch": true,
+    "preserveLayoutOnMobile": true,
+    "fullWidth": true
+  }
+}
 }

@@ -1,66 +1,100 @@
 {
-   
-    "flex-layout.row#desktop--one": {
-        "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "fullWidth": true
-        },
-        "children": [
-          "flex-layout.col#logo-desktop",
-          "search-bar",
-          "flex-layout.col#spacer",
-         /*  "locale-switcher", */
-          "login",
-          "minicart.v2"
-        ]
-      },
-      "flex-layout.col#spacer": {
-        "props": {
-          "width": "grow"
-        }
-      },
-      "flex-layout.col#logo-desktop": {
-        "props": {
-          "verticalAlign": "middle"
-        },
-        "children": [
-          "logo"
-        ]
-      },
-      "logo": {
-        "props": {
-          "title": "Logo",
-          "href": "/",
-          "url": "assets/brand/logo.png",
-          "width": "60"
-        }
-      },
-      "header-layout.mobile": {
-        "children": [
-          "sticky-layout#mobile"
-        ]
-      },
-      "sticky-layout#mobile": {
-        "children": [
-          "flex-layout.row#mobile"
-        ]
-      },
-      "flex-layout.row#mobile": {
-        "children": [
-          
-          "logo",
-          "flex-layout.col#spacer",
-          "login",
-          "minicart.v2"
-        ],
-        "props": {
-          "blockClass": "main-header-mobile",
-          "preventHorizontalStretch": true,
-          "preserveLayoutOnMobile": true,
-          "fullWidth": true
-        }
-      }
+  "header-row#desktop--one": {
+    "props": {
+     /*  "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true, */
+      "fullWidth": true,
+      "blockClass": "header__desktop",
+      "sticky": true
+    },
+    "children": [
+      "logo#header__desktop",
+      "header-spacer",
+      "search-bar#header__desktop",
+      "flex-layout.row#header__desktop",
+      "login"
+    ]
+  },
+  "logo#header__desktop": {
+    "title": "Header Logo",
+    "props": {
+      "blockClass": "header__desktop",
+      "url": "assets/brand/logo.png",
+      "width": 70,
+      "href": "/"
+    }
+  },
+  "search-bar#header__desktop": {
+    "title": "Header Searchbar",
+    "props": {
+      "blockClass": "header__desktop",
+      "placeholder": "¿Qué estás buscando?"
+    }
+  },
+  "flex-layout.row#header__desktop":{
+    "title": "Header container delivery type",
+    "children": [
+      "rich-text#receive__order",
+      "header-spacer",
+      "rich-text#register"
+      ],
+    "props": {
+      "blockClass": "header__desktop",
+      "verticalAlign": "center"
+    }
+  },
+  "rich-text#receive__order": {
+    "title": "Text Configura tu método de entrega",
+    "props": {
+      "blockClass": "receive__order",
+      "text": "**[Configura tu método de entrega](https://tiendasmetro.co)**",
+      "textColor":"#ffffff",
+      "textDecoration":"none"
+    }
+  },
+  
+  "rich-text#register": {
+    "title": "Register link",
+    "props": {
+      "blockClass": "register link",
+      "text": "Regístrate"
+    }
+  },
+  "login": {
+    "title": "Header Login",
+    "props": {
+      "showPasswordVerificationIntoTooltip": true,
+      "passwordPlaceholder": "Contraseña",
+      "emailAndPasswordTitle": "Log in",
+      "optionsTitle": "Accede con",
+      "emailPlaceholder": "Email",
+      "showIconProfile": true
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "logo",
+      "flex-layout.col#spacer",
+      "login"
+      /* "minicart.v2" */
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  }
 }
