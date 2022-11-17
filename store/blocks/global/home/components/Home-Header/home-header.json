@@ -11,7 +11,7 @@
     "children": [
       "header-row#desktop--one",
       "header-row#desktop--two",
-      "flex-layout.row#desktop--three"
+      "header-row#desktop--three"
     ]
   }
    

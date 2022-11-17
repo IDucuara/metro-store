@@ -1,26 +1,24 @@
 {
   "header-row#desktop--two": {
     "props": {
+      "title": "header-menu",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "blockClass": "header__desktop2"
+      "blockClass": "header__desktop--two"
     },
     "children": [
       "drawer",
-      "menu#header__desktop2",
+      "menu#header__desktop--two",
       "minicart.v2"
     ]
   },
   "drawer": {
     "children": []
   },
-  "menu#header__desktop2": {
-    "props": {
-      "textColor": "#ffffff"
-    },
+  "menu#header__desktop--two": {
     "children": [
       "menu-item#department__one",
       "menu-item#department__two",
@@ -32,13 +30,9 @@
   },
   "menu-item#department__one": {
     "props": {
-      "id": "category-ne",
+      "id": "department__categories",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.tiendasmetro.co/",
-        "noFollow": true,
-        "tagTitle": "google title",
         "text": "CATEGORIAS"
       }
     },
@@ -49,13 +43,131 @@
   "submenu.accordion#category__one": {
     "children": [
       "menu#department__one"
-    ]
+    ],
+    "props":{
+      "orientation": "vertical"
+    }
   },
   "menu#department__one": {
+    "props":{
+      "orientation": "vertical"
+    },
     "children": [
-      "slider-layout#home__slider--children"
+      "rich-text#department__one--menu--supermercado",
+      "rich-text#department__one--menu--tecnologia",
+      "rich-text#department__one--menu--televisoresAudio",
+      "rich-text#department__one--menu--electrodomesticos",
+      "rich-text#department__one--menu--mundoBebes",
+      "rich-text#department__one--menu--hogarDecoracion",
+      "rich-text#department__one--menu--Jugueteria",
+      "rich-text#department__one--menu--deportesTiempoLibre",
+      "rich-text#department__one--menu--automovil",
+      "rich-text#department__one--menu--herramientasFerreteria",
+      "rich-text#department__one--menu--librosPapeleria",
+      "rich-text#department__one--menu--saludBienestar",
+      "rich-text#department__one--menu--tarjetaRegalo",
+      "rich-text#department__one--menu--ropaAccesorios",
+      "rich-text#department__one--menu--mascotas",
+      "rich-text#department__one--menu--especiales"
     ]
   },
+  "rich-text#department__one--menu--supermercado": {
+    "props": {
+      "text": "Supermercado",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--tecnologia": {
+    "props": {
+      "text": "Tecnología",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--televisoresAudio": {
+    "props": {
+      "text": "Televisores y Audio",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--electrodomesticos": {
+    "props": {
+      "text": "Electrodomésticos",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--mundoBebes": {
+    "props": {
+      "text": "Mundo Bebés",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--hogarDecoracion": {
+    "props": {
+      "text": "Hogar y Decoración",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--Jugueteria": {
+    "props": {
+      "text": "Juguetería",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--deportesTiempoLibre": {
+    "props": {
+      "text": "Deportes y tiempo libre",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--automovil": {
+    "props": {
+      "text": "Automóvil",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--herramientasFerreteria": {
+    "props": {
+      "text": "Herramientas y Ferretería",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--librosPapeleria": {
+    "props": {
+      "text": "Libros y Papelería",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--saludBienestar": {
+    "props": {
+      "text": "Salud y Bienestar",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--tarjetaRegalo": {
+    "props": {
+      "text": "Tarjeta Regalo",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--ropaAccesorios": {
+    "props": {
+      "text": "Ropa y Accesorios",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--mascotas": {
+    "props": {
+      "text": "Mascotas",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__one--menu--especiales": {
+    "props": {
+      "text": "Especiales",
+      "blockClass": "title_submenu"
+    }
+  },
+ //SECTION2 
   "menu-item#department__two": {
     "props": {
       "id": "category-ne",
@@ -64,7 +176,6 @@
         "type": "external",
         "href": "https://www.tiendasmetro.co/",
         "noFollow": true,
-        "tagTitle": "google title",
         "text": "OFERTAS"
       }
     }
@@ -77,7 +188,6 @@
         "type": "external",
         "href": "https://www.tiendasmetro.co/",
         "noFollow": true,
-        "tagTitle": "google title",
         "text": "CATÁLOGOS"
       }
     }
@@ -90,61 +200,173 @@
         "type": "external",
         "href": "https://www.tiendasmetro.co/",
         "noFollow": true,
-        "tagTitle": "google title",
         "text": "TARJETA REGALO VIRTUAL"
       }
     }
   },
   "menu-item#department__five": {
-  
     "props": {
-      "id": "category-ne",
+      "id": "department-tiendasYcobertura",
       "type": "custom",
       "itemProps": {
-        "noFollow":true,
-        "tagTitle": "TIENDAS Y COBERTURA",
+        "noFollow": true,
         "orientation": "vertical",
         "text": "TIENDAS Y COBERTURA"
       }
-    }
     },
-  
-  
-
-
-"menu-item#department__six": {
-  "props": {
-    "id": "category-ne",
-    "type": "custom",
-    "itemProps": {
-      "type": "external",
-      "href": "https://www.tiendasmetro.co/",
-      "noFollow": true,
-      "tagTitle": "google title",
-      "text": "SERVICIOS"
+    "blocks": [
+      "submenu#department__five"
+    ]
+  },
+  "submenu#department__five": {
+    "children": [
+      "menu#department__five"
+    ],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  },
+  "menu#department__five": {
+    "children": [
+      "flex-layout.row#department__five"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#department__five": {
+    "children": [
+      "flex-layout.col#department__five--submenu"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "borderWidth": 0,
+      "blockClass": "departament__five__navbar",
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#department__five--submenu": {
+    "children": [
+      "rich-text#department__five--submenu--localizaTuTienda",
+      "rich-text#department__five--submenu--CoberturaDeMercado",
+      "rich-text#department__five--submenu--CoberturaTecnoYHogar"
+    ],
+    "props": {
+      "blockClass": "departament__five__submenu"
+    }
+  },
+  "rich-text#department__five--submenu--localizaTuTienda": {
+    "props": {
+      "text": "Localiza tu tienda",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__five--submenu--CoberturaDeMercado": {
+    "props": {
+      "text": "Cobertura de mercado",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__five--submenu--CoberturaTecnoYHogar": {
+    "props": {
+      "text": "Cobertura tecno y hogar",
+      "blockClass": "title_submenu"
+    }
+  },
+  "menu-item#department__six": {
+    "props": {
+      "id": "department-servicios",
+      "type": "custom",
+      "itemProps": {
+        "noFollow": true,
+        "orientation": "vertical",
+        "text": "TIENDAS Y COBERTURA"
+      }
+    },
+    "blocks": [
+      "submenu#department__six"
+    ]
+  },
+  "submenu#department__six": {
+    "children": [
+      "menu#department__six"
+    ],
+    "props": {
+      "blockClass": "container__submenu",
+      "onMountBehavior": "open"
+    }
+  },
+  "menu#department__six": {
+    "children": [
+      "flex-layout.row#department__six"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#department__six": {
+    "children": [
+      "flex-layout.col#department__six--submenu"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "borderWidth": 0,
+      "blockClass": "departament__six__navbar",
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#department__six--submenu": {
+    "children": [
+      "rich-text#department__six--submenu--Domicilios",
+      "rich-text#department__six--submenu--Envío",
+      "rich-text#department__six--submenu--RecogeEnTienda"
+    ],
+    "props": {
+      "blockClass": "departament__six__submenu"
+    }
+  },
+  "rich-text#department__six--submenu--Domicilios": {
+    "props": {
+      "text": "Domicilios",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__six--submenu--Envío": {
+    "props": {
+      "text": "Envío",
+      "blockClass": "title_submenu"
+    }
+  },
+  "rich-text#department__six--submenu--RecogeEnTienda": {
+    "props": {
+      "text": "Recoge en tienda",
+      "blockClass": "title_submenu"
+    }
+  },
+  //MOBILE SECTION
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
     }
   }
-},
-"header-layout.mobile": {
-  "children": [
-    "sticky-layout#mobile"
-  ]
-},
-"sticky-layout#mobile": {
-  "children": [
-    "flex-layout.row#mobile"
-  ]
-},
-"flex-layout.row#mobile": {
-  "children": [
-    "drawer",
-    "minicart.v2"
-  ],
-  "props": {
-    "blockClass": "main-header-mobile",
-    "preventHorizontalStretch": true,
-    "preserveLayoutOnMobile": true,
-    "fullWidth": true
-  }
-}
 }

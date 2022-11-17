@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#desktop--three": {
+    "header-row#desktop--three": {
         "title":"Season Banner",
         "children": [
           "image#header-banner"

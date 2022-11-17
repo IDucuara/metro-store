@@ -73,6 +73,9 @@
       "showIconProfile": true
     }
   },
+  
+  //MOBILE SECTION
+  
   "header-layout.mobile": {
     "children": [
       "sticky-layout#mobile"
