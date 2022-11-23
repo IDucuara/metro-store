@@ -11,6 +11,10 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
+  "peerDependencies": {
+    "vtex.mega-menu": "2.x"
+  },
+
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",

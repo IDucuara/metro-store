@@ -16,13 +16,18 @@ font-weight: bold;
 
 }
 
-.headerRowBackground--header__desktop,
-.headerRowBackground--header__middle,
-.headerRowBackground--header__mobile--first,
-.headerRowBackground--header__mobile--second,
-.headerRowBackground--header__mobile--third {
+.headerRowBackground--header__desktop{
     background-color: red;
 }
+.headerRowBackground--header__middle,
+.headerRowBackground--header__mobile--first,
+.headerRowBackground--header__mobile--third {
+    background-color: #0c0c0c;
+}
+.headerRowBackground--header__mobile--second{
+    background-color: rgb(225, 225, 225);
+}
+
 
 .headerRowContentContainer--header__mobile--first,
 .headerRowContentContainer--header__mobile--second,
