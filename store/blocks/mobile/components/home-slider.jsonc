@@ -1,0 +1,46 @@
+{
+    "list-context.image-list#mobile__home--slider--list": {
+        "title": "List of images",
+        "children": [
+          "slider-layout#mobile__home--slider--list"
+        ],
+        "props": {
+          "preload": true,
+          "images": [
+            {
+              "image": "assets/img/mobile-home-slider/mobile_slider_img1.jpg",
+              "description": "slider one"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/mobile_slider_img2.jpg",
+              "description": "slider two"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/mobile_slider_img3.jpg",
+              "description": "slider three"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/mobile_slider_img4.jpg",
+              "description": "slider four"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/mobile_slider_img5.jpg",
+              "description": "slider five"
+            }
+          ]
+        }
+    },
+    "slider-layout#mobile__home--slider--list": {
+        "title": "Slider with list",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "blockClass": "mobile__home--slider",
+          "showNavigationArrows": "never"
+        }
+    }
+}
