@@ -8,23 +8,23 @@
           "preload": true,
           "images": [
             {
-              "image": "assets/img/mobile-home-slider/mobile_slider_img1.jpg",
+              "image": "assets/img/mobile-home-slider/mobile_slider_img1.jpeg",
               "description": "slider one"
             },
             {
-              "image": "assets/img/mobile-home-slider/mobile_slider_img2.jpg",
+              "image": "assets/img/mobile-home-slider/mobile_slider_img2.jpeg",
               "description": "slider two"
             },
             {
-              "image": "assets/img/mobile-home-slider/mobile_slider_img3.jpg",
+              "image": "assets/img/mobile-home-slider/mobile_slider_img3.jpeg",
               "description": "slider three"
             },
             {
-              "image": "assets/img/mobile-home-slider/mobile_slider_img4.jpg",
+              "image": "assets/img/mobile-home-slider/mobile_slider_img4.jpeg",
               "description": "slider four"
             },
             {
-              "image": "assets/img/mobile-home-slider/mobile_slider_img5.jpg",
+              "image": "assets/img/mobile-home-slider/mobile_slider_img5.jpeg",
               "description": "slider five"
             }
           ]

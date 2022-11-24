@@ -22,13 +22,13 @@
     "image#mobile__home--section-three--banner-1": {
         
         "props": {
-            "width": "50%",
+            "width": "100%",
             "src": "assets/img/supermercado-banner-1.jpg"
         }
     },
     "image#mobile__home--section-three--banner-2": {
                "props": {
-            "width": "50%",
+            "width": "100%",
             "src": "assets/img/supermercado-banner-2.jpg"
         }
     },

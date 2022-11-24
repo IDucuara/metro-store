@@ -20,19 +20,19 @@
     },
     "image#mobile__home--section-five--banner-1":{
         "props": {
-            "width": "50%",
+            "width": "100%",
             "src": "assets/img/tecnologia-mobile-banner-1.jpg"
         }
     },
     "image#mobile__home--section-five--banner-2":{
         "props": {
-            "width": "50%",
+            "width": "100%",
             "src": "assets/img/tecnologia-mobile-banner-2.jpg"
         }
     },
     "image#mobile__home--section-five--banner-3":{
         "props": {
-            "width": "50%",
+            "width": "100%",
             "src": "assets/img/tecnologia-mobile-banner-3.jpg"
         }
     }

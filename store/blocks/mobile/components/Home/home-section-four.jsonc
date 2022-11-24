@@ -21,7 +21,7 @@
     "image#mobile__home--section-four--image-1": {
         
         "props": {
-            "width": "50%",
+            "width": "100%",
             "src":"assets/img/electrodomesticos_banner.jpg"
         }
     }

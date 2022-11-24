@@ -23,21 +23,21 @@
     "image#mobile__home--section-seven--banner-1": {
         
         "props": {
-            "width": "50%",
+            "width": "100%",
             "src":"assets/img/servicios-banner-1.jpg"
         }
     },
     "image#mobile__home--section-seven--banner-2": {
         
         "props": {
-            "width": "50%",
+            "width": "100%",
             "src":"assets/img/servicios-banner-2.jpg"
         }
     },
     "image#mobile__home--section-seven--banner-3": {
         
         "props": {
-            "width": "50%",
+            "width": "100%",
             "src":"assets/img/servicios-banner-3.jpg"
         }
     }

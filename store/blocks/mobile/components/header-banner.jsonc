@@ -2,7 +2,7 @@
     "image#mobile__header--banner": {
         "title": "home banner image",
         "props": {
-            "src": "assets/img/mobile-home-banner/banner-superior-venta-telefonica-mobile.webp",
+            "src": "assets/img/mobile-home-banner/banner-superior.jpg",
             "title": "banner superior movil",
             "blockClass": "home__banner",
             "link": {
