@@ -1,27 +1,29 @@
 {
-    "flex-layout.row#mobile__home--section-four": {
+    "flex-layout.col#mobile__home--section-four": {
         "children": [
-            "flex-layout.col#mobile__home--section-four--item-1",
-            "flex-layout.col#mobile__home--section-four--item-2"
+            "rich-text#mobile__home--section-four",
+            "image#mobile__home--section-four--image-1"
+            
         ],
         "props": {
             "preserveLayoutOnMobile": true
         }
     },
-    "flex-layout.col#mobile__home--section-four--item-1": {
-        "children": [
-            "image#home__section--four-image-one"
-        ],
+    "rich-text#mobile__home--section-four": {
         "props": {
-            "width": "50%"
+            "text": "Electrodomésticos",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-5"
         }
     },
-    "flex-layout.col#mobile__home--section-four--item-2": {
-        "children": [
-            "image#home__section--four-image-two"
-        ],
+
+    "image#mobile__home--section-four--image-1": {
+        
         "props": {
-            "width": "50%"
+            "width": "50%",
+            "src":"assets/img/electrodomesticos_banner.jpg"
         }
     }
+    
 }

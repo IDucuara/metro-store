@@ -1,27 +1,40 @@
 {
-    "flex-layout.row#mobile__home--section-five": {
+    "flex-layout.col#mobile__home--section-five": {
         "children": [
-            "flex-layout.col#mobile__home--section-five--item-1",
-            "flex-layout.col#mobile__home--section-five--item-2"
+            "rich-text#mobile__home--section-five",
+            "image#mobile__home--section-five--banner-1",
+            "image#mobile__home--section-five--banner-2",
+            "image#mobile__home--section-five--banner-3"
         ],
         "props": {
             "preserveLayoutOnMobile": true
         }
     },
-    "flex-layout.col#mobile__home--section-five--item-1": {
-        "children": [
-            "image#home__section--five-image-one"
-        ],
+    "rich-text#mobile__home--section-five": {
         "props": {
-            "width": "50%"
+            "text": "Tecnología",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-5"
         }
     },
-    "flex-layout.col#mobile__home--section-five--item-2": {
-        "children": [
-            "image#home__section--five-image-two"
-        ],
+    "image#mobile__home--section-five--banner-1":{
         "props": {
-            "width": "50%"
+            "width": "50%",
+            "src": "assets/img/tecnologia-mobile-banner-1.jpg"
+        }
+    },
+    "image#mobile__home--section-five--banner-2":{
+        "props": {
+            "width": "50%",
+            "src": "assets/img/tecnologia-mobile-banner-2.jpg"
+        }
+    },
+    "image#mobile__home--section-five--banner-3":{
+        "props": {
+            "width": "50%",
+            "src": "assets/img/tecnologia-mobile-banner-3.jpg"
         }
     }
+  
 }

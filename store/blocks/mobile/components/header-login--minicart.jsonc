@@ -10,7 +10,7 @@
           "iconLabel": "Hola",
           "hideIconLabel": true
         }
-    },
+    }/* ,
     "minicart.v2#mobile": {
         "props": {
           "variation": "link",
@@ -22,5 +22,5 @@
         "props": {
           "size": 30
         }
-    }
+    } */
 }

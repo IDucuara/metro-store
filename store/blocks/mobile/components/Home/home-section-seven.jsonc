@@ -1,27 +1,45 @@
 {
-    "flex-layout.row#mobile__home--section-seven": {
+    "flex-layout.col#mobile__home--section-seven": {
         "children": [
-            "flex-layout.col#mobile__home--section-seven--item-1",
-            "flex-layout.col#mobile__home--section-seven--item-2"
+            "rich-text#mobile__home--section-seven",
+            "image#mobile__home--section-seven--banner-1",
+            "image#mobile__home--section-seven--banner-2",
+            "image#mobile__home--section-seven--banner-3"
         ],
         "props": {
             "preserveLayoutOnMobile": true
         }
     },
-    "flex-layout.col#mobile__home--section-seven--item-1": {
-        "children": [
-            "image#home__section--seven-image-one"
-        ],
+
+    "rich-text#mobile__home--section-seven": {
         "props": {
-            "width": "50%"
+            "text": "Servicios",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-5"
         }
     },
-    "flex-layout.col#mobile__home--section-seven--item-2": {
-        "children": [
-            "image#home__section--seven-image-two"
-        ],
+
+    "image#mobile__home--section-seven--banner-1": {
+        
         "props": {
-            "width": "50%"
+            "width": "50%",
+            "src":"assets/img/servicios-banner-1.jpg"
+        }
+    },
+    "image#mobile__home--section-seven--banner-2": {
+        
+        "props": {
+            "width": "50%",
+            "src":"assets/img/servicios-banner-2.jpg"
+        }
+    },
+    "image#mobile__home--section-seven--banner-3": {
+        
+        "props": {
+            "width": "50%",
+            "src":"assets/img/servicios-banner-3.jpg"
         }
     }
+   
 }

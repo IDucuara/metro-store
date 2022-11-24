@@ -1,27 +1,29 @@
 {
     "flex-layout.row#mobile__home--section-six": {
         "children": [
-            "flex-layout.col#mobile__home--section-six--item-2",
-            "flex-layout.col#mobile__home--section-six--item-3"
+            "rich-text#mobile__home--section-six",
+            "flex-layout.col#mobile__home--section-six--products"
+           
         ],
         "props": {
             "preserveLayoutOnMobile": true
         }
     },
-    "flex-layout.col#mobile__home--section-six--item-2": {
-        "children": [
-            "image#home__section--six-image-two"
-        ],
+    "rich-text#mobile__home--section-six": {
         "props": {
-            "width": "50%"
+            "text": "Descuentos para ti",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-5"
         }
     },
-    "flex-layout.col#mobile__home--section-six--item-3": {
+
+    "flex-layout.col#mobile__home--section-six--products": {
         "children": [
-            "image#home__section--six-image-three"
+            
         ],
         "props": {
-            "width": "50%"
+           
         }
     }
 }

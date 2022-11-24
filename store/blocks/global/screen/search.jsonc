@@ -51,8 +51,8 @@
       "product-list-price",
       "product-selling-price",
       "product-summary-sku-selector",
-      "add-to-cart-button",
-      "add-to-list-btn"
+      "add-to-cart-button"
+     /*  "add-to-list-btn" */
     ]
   },
   "product-summary-name": {

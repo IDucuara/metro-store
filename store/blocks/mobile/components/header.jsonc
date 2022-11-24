@@ -1,100 +1,104 @@
 {
   "header-layout.mobile": {
     "children": [
-      "responsive-layout.tablet#tablet__header",
-      "responsive-layout.phone#phone__header"
+      "header-row#header__mobile--first",
+      "header-row#header__mobile--second",
+      "header-row#header__mobile--third"
     ]
   },
-  "responsive-layout.phone#phone__header": {
+  "header-row#header__mobile--first": {
     "children": [
-      "image#mobile__header--banner",
-      "sticky-layout#mobile__header"
-    ]
-  },
-  "sticky-layout#mobile__header": {
-    "children": [
-      "flex-layout.row#mobile"
-    ]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
+      "logo#header__mobile",
       "drawer#header__mobile--menu",
-      "flex-layout.col#mobile__logo",
-      "flex-layout.col#mobile__search-bar--header",
-      "flex-layout.col#mobile__login--header",
-      "flex-layout.col#mobile__minicart--header"
+      "header-spacer",
+      "login", 
+      "minicart.v2"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
-      "preserveLayoutOnMobile": true,
-      "preventHorizontalStretch": false,
-      "fullWidth": true,
-      "colSizing": "auto"
+      "blockClass": "header__mobile--first"
+    }
+  },
+  // MEGA-MENU
+  "logo#header__mobile":{
+    "title": "Header Logo",
+    "props": {
+      "blockClass": "header__mobile",
+      "url": "assets/brand/logo.png",
+      "width": 30,
+      "href": "/"
     }
   },
   "drawer#header__mobile--menu": {
     "children": [
-      "menu#header__menu"
+      "mega-menu#mobile"
     ],
-    "props": {
-      "size": 35,
-      "maxWidth": 200,
-      "slideDirection": "rightToLeft",
-      "blockClass": "drawer__mobile"
-    }
-  },
-  "flex-layout.col#mobile__logo": {
-    "props": {
-      "verticalAlign": "middle",
-      "width": "15%"
-    },
-    "children": [
-      "logo#mobile__header--logo"
+    "blocks": [
+      "drawer-header#my-drawer"
     ]
   },
-  "logo#mobile__header--logo": {
-    "title": "Header Logo",
+  "mega-menu#mobile": {
     "props": {
-      "href": "/",
-      "url": "assets/img/logo-easy.webp",
-      "width": "70px",
-      "blockClass": "logo__mobile"
+      "blockClass": "mega-menu__mobile",
+      "orientation": "vertical",
+      "openOnly": "vertical"
     }
   },
-  "flex-layout.col#mobile__search-bar--header": {
+  "drawer-header#my-drawer": {
     "children": [
-      "search-bar#mobile__header--search"
+      "flex-layout.row#drawer-header"
+    ]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      "flex-layout.col#drawer-close-button"
     ],
     "props": {
-      "verticalAlign": "middle",
-      "width": "50%"
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
     }
   },
-  "search-bar#mobile__header--search": {
-    "blocks": ["autocomplete-result-list.v2"],
-    "props": {
-      "openAutocompleteOnFocus": true,
-      "displayMode": "search-and-clear-buttons"
-    }
-  },
-  "flex-layout.col#mobile__login--header": {
+  "flex-layout.col#drawer-close-button": {
     "children": [
-      "login#mobile"
+      "drawer-close-button"
     ],
     "props": {
-      "width": "10%",
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
-    }
-  },
-  "flex-layout.col#mobile__minicart--header": {
-    "children": [
-      "minicart.v2#mobile"
-    ],
-    "props": {
-      "width": "10%",
       "verticalAlign": "middle",
       "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": [
+      "mega-menu-go-back-btn"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  },
+  //SEARCHBAR
+  "header-row#header__mobile--second": {
+    "children": [
+      "search-bar#header__desktop"
+    ],
+    "props": {
+      "blockClass": "header__mobile--second"
+    }
+  },
+  //PROMO_BANNER
+  "header-row#header__mobile--third": {
+    "title": "Season Banner",
+    "children": [
+      "image#header__banner--mobile"
+    ]
+  },
+  "image#header__banner--mobile": {
+    "props": {
+      "src": "assets/img/banner.jpg"
     }
   }
 }

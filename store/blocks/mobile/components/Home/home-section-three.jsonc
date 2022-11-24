@@ -1,27 +1,118 @@
 {
     "flex-layout.row#mobile__home--section-three": {
         "children": [
-            "flex-layout.col#mobile__home--section-three--item-1",
-            "flex-layout.col#mobile__home--section-three--item-2"
+            "rich-text#mobile__home--section-three",
+            "image#mobile__home--section-three--banner-1",
+            "image#mobile__home--section-three--banner-2",
+            "slider-layout#mobile__home--section-three--promoSlider-1",
+            "slider-layout#mobile__home--section-three--promoSlider-2"
         ],
         "props": {
             "preserveLayoutOnMobile": true
         }
     },
-    "flex-layout.col#mobile__home--section-three--item-1": {
-        "children": [
-            "image#home__section--three-image-one"
-        ],
+    "rich-text#mobile__home--section-three": {
         "props": {
-            "width": "50%"
+            "text": "Supermercado",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-5"
         }
     },
-    "flex-layout.col#mobile__home--section-three--item-2": {
+    "image#mobile__home--section-three--banner-1": {
+        
+        "props": {
+            "width": "50%",
+            "src": "assets/img/supermercado-banner-1.jpg"
+        }
+    },
+    "image#mobile__home--section-three--banner-2": {
+               "props": {
+            "width": "50%",
+            "src": "assets/img/supermercado-banner-2.jpg"
+        }
+    },
+    "slider-layout#mobile__home--section-three--promoSlider-1": {
         "children": [
-            "image#home__section--three-image-two"
+            "image#mobile__home--section-three--image-1",
+            "image#mobile__home--section-three--image-2",
+            "image#mobile__home--section-three--image-3",
+            "image#mobile__home--section-three--image-4",
+            "image#mobile__home--section-three--image-5"
         ],
         "props": {
-            "width": "50%"
+            "itemsPerPage": {
+                "mobile": 2
+            },
+            "infinite": false,
+            "blockClass": "mobile__home--section-three--promoSlider-1"
+        }
+    },
+    "image#mobile__home--section-three--image-1": {
+        "props": {
+            "src": "assets/img/supermercado-promo-1.jpg"
+        }
+    },
+    "image#mobile__home--section-three--image-2": {
+        "props": {
+            "src": "assets/img/supermercado-promo-2.jpg"
+        }
+    },
+    "image#mobile__home--section-three--image-3": {
+        "props": {
+            "src": "assets/img/supermercado-promo-3.jpg"
+        }
+    },
+    "image#mobile__home--section-three--image-4": {
+        "props": {
+            "src": "assets/img/supermercado-promo-4.jpg"
+        }
+    },
+    "image#mobile__home--section-three--image-5": {
+        "props": {
+            "src": "assets/img/supermercado-promo-5.jpg"
+        }
+    },
+    //slider promos 2
+    "slider-layout#mobile__home--section-three--promoSlider-2": {
+        "children": [
+            "image#mobile__home--section-three--image-6",
+            "image#mobile__home--section-three--image-7",
+            "image#mobile__home--section-three--image-8",
+            "image#mobile__home--section-three--image-9",
+            "image#mobile__home--section-three--image-10"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "mobile": 2
+            },
+            "infinite": false,
+            "blockClass": "mobile__home--section-three--promoSlider-2"
+        }
+    },
+    "image#mobile__home--section-three--image-6": {
+        "props": {
+            "src": "assets/img/supermercado-promo-6.jpg"
+        }
+    },
+    "image#mobile__home--section-three--image-7": {
+        "props": {
+            "src": "assets/img/supermercado-promo-7.jpg"
+        }
+    },
+    "image#mobile__home--section-three--image-8": {
+        "props": {
+            "src": "assets/img/supermercado-promo-8.jpg"
+        }
+    },
+    "image#mobile__home--section-three--image-9": {
+        "props": {
+            "src": "assets/img/supermercado-promo-9.jpg"
+        }
+    },
+    "image#mobile__home--section-three--image-10": {
+        "props": {
+            "src": "assets/img/supermercado-promo-10.jpg"
         }
     }
 }
