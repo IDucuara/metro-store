@@ -1,5 +1,6 @@
 {
     "flex-layout.col#mobile__home--section-five": {
+        "title":"home-section-five",
         "children": [
             "rich-text#mobile__home--section-five",
             "image#mobile__home--section-five--banner-1",

@@ -1,5 +1,6 @@
 {
   "header-layout.mobile": {
+    "title":"header-mobile",
     "children": [
       "header-row#header__mobile--first",
       "header-row#header__mobile--second",
@@ -7,6 +8,7 @@
     ]
   },
   "header-row#header__mobile--first": {
+    "title":"header-mobile-first",
     "children": [
       "logo#header__mobile",
       "drawer#header__mobile--menu",

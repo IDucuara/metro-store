@@ -1,0 +1,271 @@
+{
+    "footer-layout.desktop": {
+        "title": "Footer Desktop",
+        "children": [
+            "flex-layout.row#footer__footer-badges",
+            "flex-layout.row#footer__newsletter",
+            "flex-layout.row#footer__containter"
+            /* "flex-layout.row#footer__Copyright" */
+        ],
+        "props": {
+            "blockClass": "Footer-layout--container"
+        }
+    },
+    //BADGES ROW
+    "flex-layout.row#footer__footer-badges": {
+        "title": "Badges row",
+        "children": [
+            "flex-layout.row#footer__badges"
+        ]
+    },
+    "flex-layout.row#footer__badges": {
+        "children": [
+            "flex-layout.col#footer__badges--quality",
+            "flex-layout.col#footer__badges--easyAndSafe",
+            "flex-layout.col#footer__badges--exclusiveness",
+            "flex-layout.col#footer__badges--delivery"
+        ],
+        "props": {
+            "blockClass": "footer--badges"
+        }
+    },
+    //Calidad    
+    "flex-layout.col#footer__badges--quality": {
+        "title": "Calidad card",
+        "children": [
+            "info-card#quality"
+        ]
+    },
+    "info-card#quality": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "callToActionMode": "none",
+            "textPosition": "right",
+            "imageUrl": "assets/brand/quality.png",
+            "headline": "Calidad",
+            "blockClass": "info-card-example",
+            "textAlignment": "center"
+        }
+    },
+    //Fácil y Seguro
+    "flex-layout.col#footer__badges--easyAndSafe": {
+        "title": "Fácil y seguro card",
+        "children": [
+            "info-card#easyAndSafe"
+        ]
+    },
+    "info-card#easyAndSafe": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "callToActionMode": "none",
+            "textPosition": "right",
+            "imageUrl": "assets/brand/easySafe.png",
+            "headline": "Fácil y seguro",
+            "blockClass": "info-card-example",
+            "textAlignment": "center"
+        }
+    },
+    //Exclusividad 
+    "flex-layout.col#footer__badges--exclusiveness": {
+        "title": "Exclusividad card",
+        "children": [
+            "info-card#exclusiveness"
+        ]
+    },
+    "info-card#exclusiveness": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "callToActionMode": "none",
+            "textPosition": "right",
+            "imageUrl": "assets/brand/exclusiveness.png",
+            "headline": "Exclusividad",
+            "blockClass": "info-card-example",
+            "textAlignment": "center"
+        }
+    },
+    //Entrega en tu ciudad
+    "flex-layout.col#footer__badges--delivery": {
+        "title": "Delivery card",
+        "children": [
+            "info-card#delivery"
+        ]
+    },
+    "info-card#delivery": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": false,
+            "callToActionMode": "none",
+            "textPosition": "right",
+            "imageUrl": "assets/brand/delivery.png",
+            "headline": "Entrega en tu ciudad",
+            "blockClass": "info-card-example",
+            "textAlignment": "center"
+        }
+    },
+    //Newsletter Row
+    "flex-layout.row#footer__newsletter": {
+        "title": "Form newsletter desktop",
+        "children": [
+            "newsletter-form"
+        ],
+        "props": {
+            "blockClass": "footer--Form--newsletter"
+        }
+    },
+    "newsletter-form": {
+        "children": [
+            "flex-layout.row#input__containter"
+        ],
+        "props": {
+            "blockClass": "newsletter--form--desktop"
+        }
+    },
+    "flex-layout.row#input__containter": {
+        "children": [
+            "newsletter-input-email",
+            "newsletter-submit"
+        ],
+        "props": {
+            "blockClass": "layout--container-inputs"
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "submitButtonLabel": ">."
+        }
+    },
+    "newsletter-input-email": {
+        "props": {
+            "blockClass": "newsletter--input-name--desktop",
+            "inputLabel": "¡SUSCRÍBETE A TIENDASMETRO.CO Y RECIBE OFERTAS PERSONALIZADAS!",
+            "placeholderText": "Ingresa tu e-mail"
+        }
+    },
+    // Metro logo and info row
+    "flex-layout.row#footer__containter": {
+        "children": [
+            "flex-layout.col#footer__container--col-one",
+            "flex-layout.col#footer__container--col-two",
+            "flex-layout.col#footer__container--col-three",
+            "flex-layout.col#footer__container--col-four",
+            "flex-layout.col#footer__container--col-five"
+        ],
+        "props": {
+            "blockClass": "Footer-Container"
+        }
+    },
+    //LOGO AND PARTNERS LOGOS
+    "flex-layout.col#footer__container--col-one": {
+        "title": "logos columna",
+        "props": {
+            "blockClass": "footer__col--one",
+            "width": "18%"
+        },
+        "children": [
+            "flex-layout.row#footer__metro--logo",
+            "flex-layout.row#footer__menu--partners"
+        ]
+    },
+    "flex-layout.row#footer__metro--logo": {
+        "children": [
+            "image#footer__metro--logo"
+        ]
+    },
+    "image#footer__metro--logo": {
+        //metro footer logo
+    },
+    "flex-layout.row#footer__menu--partners": {
+        //partners logos row
+    },
+    //NOSOTROS COL
+    "flex-layout.col#footer__container--col-two": {
+        "title": "Nosotros columna",
+        "props": {
+            "blockClass": "footer__col--two",
+            "width": "14%"
+        },
+        "children": [
+            "rich-text#nosotros",
+            "menu#nosotros"
+        ]
+    },
+    "rich-text#nosotros": {
+        "props": {
+            "text": "NOSOTROS",
+            "blockClass": "footer--title-nosotros"
+        }
+    },
+    "menu#nosotros": {},
+    // ADITIONAL INFO
+    "flex-layout.col#footer__container--col-three": {
+        "title": "información adional columna",
+        "children": [
+            "menu#aditionalInfo"
+        ],
+        "props": {
+            "blockClass": "footer__container--col-aditionalInfo"
+        }
+    },
+    "menu#aditionalInfo": {},
+    //Metro COL
+    "flex-layout.col#footer__container--col-four": {
+        "title": "Metro columna",
+        "props": {
+            "blockClass": "footer__col--four",
+            "width": "18%"
+        },
+        "children": [
+            "flex-layout.col#footer__title--metro",
+            "flex-layout.col#footer__menu--metro"
+        ]
+    },
+    "flex-layout.col#footer__title--metro": {
+        "children": [
+            "rich-text#footer__metro"
+        ]
+    },
+    "rich-text#footer__metro": {
+        "props": {
+            "text": "METRO",
+            "blockClass": "footer--title-metro"
+        }
+    },
+    "flex-layout.col#footer__menu--metro": {
+        "children": [
+            "menu#metro"
+        ]
+    },
+    "menu#metro": {},
+    //ATENCIÓN AL CLIENTE COL
+    "flex-layout.col#footer__container--col-five": {
+        "title": "Atención al cliente columna",
+        "props": {
+            "blockClass": "footer__col--five",
+            "width": "18%"
+        },
+        "children": [
+            "flex-layout.col#footer__title--atencionAlCliente",
+            "flex-layout.col#footer__menu--atencionAlCliente"
+        ]
+    },
+    "flex-layout.col#footer__title--atencionAlCliente": {
+        "children": [
+            "rich-text#footer__atencionAlCliente"
+        ]
+    },
+    "rich-text#footer__atencionAlCliente": {
+        "props": {
+            "text": "ATENCIÓN AL CLIENTE",
+            "blockClass": "footer--title-atencionAlCliente"
+        }
+    },
+    "flex-layout.col#footer__menu--atencionAlCliente": {
+        "children": [
+            "menu#atencionAlCliente"
+        ]
+    },
+    "menu#atencionAlCliente": {}
+}

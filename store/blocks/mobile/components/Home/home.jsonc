@@ -20,6 +20,7 @@
     "flex-layout.col#mobile__home": {
         "title": "mobile home",
         "children": [
+            "slider-layout#home__slider2--children",
             "flex-layout.row#mobile__home--section-three",
             "flex-layout.col#mobile__home--section-four",
             "flex-layout.col#mobile__home--section-five",
