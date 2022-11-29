@@ -1,11 +1,6 @@
 //section two Promos Slider
 {
-    "responsive-layout.desktop": {
-        "title": "home promos slider",
-        "children": [
-            "slider-layout#home__slider--children"
-        ]
-    },
+    
     "slider-layout#home__slider--children": {
         "title": "Slider promotions",
         "children": [

@@ -1,0 +1,49 @@
+{
+    "responsive-layout.desktop#desktop__home--section-three": {
+        "children": [
+            "flex-layout.row#desktop__home--section-three"
+        ]
+    },
+    "flex-layout.row#desktop__home--section-three": {
+        "title": "home-desktop-section-electrodomesticos",
+        "children": [
+            "flex-layout.col#desktop__home-container--section-three"
+        ],
+        "props": {
+            "blockClass": "container--section-three-home"
+        }
+    },
+    "flex-layout.col#desktop__home-container--section-three": {
+        "children": [
+            "flex-layout.row#desktop__home--section-three-title",
+            "flex-layout.row#desktop__home--section-three-banner"
+        ]
+    },
+    "flex-layout.row#desktop__home--section-three-title": {
+        "title": "electrodomesticos category",
+        "children": [
+            "rich-text#category-title-electrodomesticos"
+        ]
+    },
+    "rich-text#category-title-electrodomesticos": {
+        "props": {
+            "blockClass": "category-title-electrodomesticos",
+            "text": "Electrodomésticos",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-4"
+        }
+    },
+    "flex-layout.row#desktop__home--section-three-banner": {
+        "children": [
+            "image#desktop__home--section-three--banner"
+        ]
+    },
+
+    "image#desktop__home--section-three--banner": {
+        "props": {
+            "width": "100%",
+            "src": "assets/img/desktop-home/home-desktop-electrodomesticos-banner.jpg"
+        }
+    }
+}

@@ -13,11 +13,19 @@
       "logo#header__mobile",
       "drawer#header__mobile--menu",
       "header-spacer",
-      "login", 
+      "login",
+      "icon#location", 
       "minicart.v2"
     ],
     "props": {
       "blockClass": "header__mobile--first"
+    }
+  },
+  "icon#location": {
+    "title": "Icon Location",
+    "props": {
+      "id": "hpa-location-marker",
+      "size": 12
     }
   },
   // MEGA-MENU

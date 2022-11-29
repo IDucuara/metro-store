@@ -1,0 +1,79 @@
+{
+    "responsive-layout.desktop#desktop__home--section-four":{
+        "children":[
+            "flex-layout.row#desktop__home--section-four"
+        ]
+    },
+    "flex-layout.row#desktop__home--section-four": {
+        "title": "home-desktop-section-four",
+        "children": [
+            "flex-layout.col#desktop__home-container--section-four"
+        ],
+        "props": {
+            "blockClass": "container--section-four-home"
+}
+    },
+    "flex-layout.col#desktop__home-container--section-four":{
+        "children":[
+            "flex-layout.row#desktop__home--section-four-title",
+            "flex-layout.row#desktop__home--section-four-banner",
+            "flex-layout.row#desktop__home--section-four-promos"
+        ]
+    },
+    "flex-layout.row#desktop__home--section-four-title":{
+        "title": "tecnologia category",
+        "children": [
+            "rich-text#category-title-tecnologia"
+        ]
+    },
+    "rich-text#category-title-tecnologia": {
+        "props": {
+            "blockClass": "category-title-tecnologia",
+            "text": "Tecnología",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-4"
+        }
+    },
+
+    "flex-layout.row#desktop__home--section-four-banner": {
+        "children": [
+            "image#desktop__home--section-four--banner"
+        ]
+    },
+
+    "image#desktop__home--section-four--banner": {
+        "props": {
+            "width": "100%",
+            "src": "assets/img/desktop-home/home-desktop-tecnologia-banner.jpg"
+        }
+    },
+    "flex-layout.row#desktop__home--section-four-promos":{
+        "children":[
+            "flex-layout.col#desktop__home--section-four-promo1",
+            "flex-layout.col#desktop__home--section-four-promo2"
+        ]
+    },
+    "flex-layout.col#desktop__home--section-four-promo1":{
+        "children":[
+            "image#desktop__home--section-four-promo1"
+        ]
+    },
+    "image#desktop__home--section-four-promo1":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-tecnologia-promo1.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-four-promo2":{
+        "children":[
+            "image#desktop__home--section-four-promo2"
+        ]
+    },
+    "image#desktop__home--section-four-promo2":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-tecnologia-promo2.jpg"
+        }
+    }
+}

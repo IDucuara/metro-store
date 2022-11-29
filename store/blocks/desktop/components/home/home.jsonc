@@ -1,0 +1,17 @@
+{
+    "responsive-layout.desktop":{
+        "title":"Home sections desktop",
+        "children":[
+            "slider-layout#home__slider--children",
+            "responsive-layout.desktop#desktop__home--section-three",
+            "responsive-layout.desktop#desktop__home--section-four",
+            "responsive-layout.desktop#desktop__home--section-five",
+            "responsive-layout.desktop#desktop__home--section-six",
+            "responsive-layout.desktop#desktop__home--section-seven",
+            "responsive-layout.desktop#desktop__home--section-eight"
+        ],
+        "props":{
+            "width":"100%"
+        }
+    }
+}

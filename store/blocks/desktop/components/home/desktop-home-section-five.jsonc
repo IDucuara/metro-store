@@ -1,0 +1,201 @@
+{
+    "responsive-layout.desktop#desktop__home--section-five":{
+        "children":[
+            "flex-layout.row#desktop__home--section-five"
+        ]
+    },
+    "flex-layout.row#desktop__home--section-five":{
+        "title": "home-desktop-section-five",
+        "children": [
+            "flex-layout.col#desktop__home-container--section-five"
+        ],
+        "props": {
+            "blockClass": "container--section-five-home"
+}
+    },
+    "flex-layout.col#desktop__home-container--section-five":{
+        "children":[
+            "flex-layout.row#desktop__home--section-five-title",
+            "flex-layout.row#desktop__home--section-five-promos",
+            "flex-layout.row#desktop__home--section-five-cupon1",
+            "flex-layout.row#desktop__home--section-five-cupon2"
+        ]
+    },
+    "flex-layout.row#desktop__home--section-five-title":{
+        "title": "supermercado category",
+        "children": [
+            "rich-text#category-title-supermercado"
+        ]
+    },
+    "rich-text#category-title-supermercado": {
+        "props": {
+            "blockClass": "category-title-supermercado",
+            "text": "Supermercado",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-4"
+        }
+    },
+    "flex-layout.row#desktop__home--section-five-promos":{
+        "children":[
+            "flex-layout.col#desktop__home--section-five-promo1",
+            "flex-layout.col#desktop__home--section-five-promo2"
+        ]
+    },
+    "flex-layout.col#desktop__home--section-five-promo1":{
+        "children":[
+            "image#desktop__home--section-five-promo1"
+        ]
+    },
+    "image#desktop__home--section-five-promo1":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-promo1.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-five-promo2":{
+        "children":[
+            "image#desktop__home--section-five-promo2"
+        ]
+    },
+    "image#desktop__home--section-five-promo2":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-promo2.jpg"
+        }
+    },
+    "flex-layout.row#desktop__home--section-five-cupon1":{
+        "children":[
+           "flex-layout.col#desktop__home--section-five-cupon1-img1",
+           "flex-layout.col#desktop__home--section-five-cupon1-img2",
+           "flex-layout.col#desktop__home--section-five-cupon1-img3",
+           "flex-layout.col#desktop__home--section-five-cupon1-img4",
+           "flex-layout.col#desktop__home--section-five-cupon1-img5"
+        ]
+    },
+    "flex-layout.col#desktop__home--section-five-cupon1-img1":{
+        "children":[
+            "image#desktop__home--section-five-cupon1-img1"
+        ]
+    },
+    "image#desktop__home--section-five-cupon1-img1":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-cupon1.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-five-cupon1-img2":{
+        "children":[
+            "image#desktop__home--section-five-cupon1-img2"
+        ]
+    },
+    "image#desktop__home--section-five-cupon1-img2":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-cupon2.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-five-cupon1-img3":{
+        "children":[
+            "image#desktop__home--section-five-cupon1-img3"
+        ]
+    },
+    "image#desktop__home--section-five-cupon1-img3":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-cupon3.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-five-cupon1-img4":{
+        "children":[
+            "image#desktop__home--section-five-cupon1-img4"
+        ]
+    },
+    "image#desktop__home--section-five-cupon1-img4":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-cupon4.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-five-cupon1-img5":{
+        "children":[
+            "image#desktop__home--section-five-cupon1-img5"
+        ]
+    },
+    "image#desktop__home--section-five-cupon1-img5":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-cupon5.jpg"
+        }
+    },
+    //segunda fila de cupones
+    "flex-layout.row#desktop__home--section-five-cupon2":{
+        "children":[
+           "flex-layout.col#desktop__home--section-five-cupon1-img6",
+           "flex-layout.col#desktop__home--section-five-cupon1-img7",
+           "flex-layout.col#desktop__home--section-five-cupon1-img8",
+           "flex-layout.col#desktop__home--section-five-cupon1-img9",
+           "flex-layout.col#desktop__home--section-five-cupon1-img10"
+        ]
+    },
+    "flex-layout.col#desktop__home--section-five-cupon1-img6":{
+        "children":[
+            "image#desktop__home--section-five-cupon1-img6"
+        ]
+    },
+    "image#desktop__home--section-five-cupon1-img6":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-cupon6.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-five-cupon1-img7":{
+        "children":[
+            "image#desktop__home--section-five-cupon1-img7"
+        ]
+    },
+    "image#desktop__home--section-five-cupon1-img7":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-cupon7.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-five-cupon1-img8":{
+        "children":[
+            "image#desktop__home--section-five-cupon1-img8"
+        ]
+    },
+    "image#desktop__home--section-five-cupon1-img8":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-cupon8.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-five-cupon1-img9":{
+        "children":[
+            "image#desktop__home--section-five-cupon1-img9"
+        ]
+    },
+    "image#desktop__home--section-five-cupon1-img9":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-cupon9.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-five-cupon1-img10":{
+        "children":[
+            "image#desktop__home--section-five-cupon1-img10"
+        ]
+    },
+    "image#desktop__home--section-five-cupon1-img10":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-supermercado-cupon10.jpg"
+        }
+    }
+
+
+
+
+
+}

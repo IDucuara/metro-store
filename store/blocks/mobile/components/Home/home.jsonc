@@ -1,8 +1,9 @@
 {
     "responsive-layout.mobile": {
         "children": [
-           /*  "responsive-layout.tablet#tablet__home", */
+           
             "responsive-layout.phone#phone__home"
+            /*  "responsive-layout.tablet#tablet__home", */
         ]
     },
     "responsive-layout.phone#phone__home": {

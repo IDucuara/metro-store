@@ -1,0 +1,65 @@
+{
+    "responsive-layout.desktop#desktop__home--section-seven":{
+        "children":[
+            "flex-layout.row#desktop__home--section-seven"
+        ]
+    },
+    "flex-layout.row#desktop__home--section-seven": {
+        "title": "home-desktop-section-seven",
+        "children": [
+            "flex-layout.col#desktop__home-container--section-seven"
+        ],
+        "props": {
+            "blockClass": "container--section-seven-home"
+}
+    },
+    "flex-layout.col#desktop__home-container--section-seven":{
+        "children":[
+            "flex-layout.row#desktop__home--section-seven-title",
+            "flex-layout.row#desktop__home--section-seven-promos"
+        ]
+    },
+    "flex-layout.row#desktop__home--section-seven-title":{
+        "title": "textilYHogar category",
+        "children": [
+            "rich-text#category-title-textilYHogar"
+        ]
+    },
+    "rich-text#category-title-textilYHogar": {
+        "props": {
+            "blockClass": "category-title-textilYHogar",
+            "text": "Textil y Hogar",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-4"
+        }
+    },
+    "flex-layout.row#desktop__home--section-seven-promos":{
+        "children":[
+            "flex-layout.col#desktop__home--section-seven-promo1",
+            "flex-layout.col#desktop__home--section-seven-promo2"
+        ]
+    },
+    "flex-layout.col#desktop__home--section-seven-promo1":{
+        "children":[
+            "image#desktop__home--section-seven-promo1"
+        ]
+    },
+    "image#desktop__home--section-seven-promo1":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-textilHogar-promo1.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-seven-promo2":{
+        "children":[
+            "image#desktop__home--section-seven-promo2"
+        ]
+    },
+    "image#desktop__home--section-seven-promo2":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-textilHogar-promo2.jpg"
+        }
+    }
+}

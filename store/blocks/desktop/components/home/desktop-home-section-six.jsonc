@@ -1,0 +1,37 @@
+{
+    "responsive-layout.desktop#desktop__home--section-six":{
+        "children":[
+            "flex-layout.row#desktop__home--section-six"
+        ]
+    },
+    "flex-layout.row#desktop__home--section-six":{
+        "title": "home-desktop-section-six",
+        "children": [
+            "flex-layout.col#desktop__home-container--section-six"
+        ],
+        "props": {
+            "blockClass": "container--section-six-home"
+}
+    },
+    "flex-layout.col#desktop__home-container--section-six":{
+        "children":[
+            "flex-layout.row#desktop__home--section-six-title"
+            //spacio para product shel
+        ]
+    },
+    "flex-layout.row#desktop__home--section-six-title":{
+        "title": "descuentosParaTi category",
+        "children": [
+            "rich-text#category-title-descuentosParaTi"
+        ]
+    },
+    "rich-text#category-title-descuentosParaTi": {
+        "props": {
+            "blockClass": "category-title-descuentosParaTi",
+            "text": "Descuentos para ti",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-4"
+        }
+    }
+}

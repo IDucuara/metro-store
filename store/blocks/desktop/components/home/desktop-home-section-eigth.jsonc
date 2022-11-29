@@ -1,0 +1,94 @@
+{
+    "responsive-layout.desktop#desktop__home--section-eight":{
+        "children":[
+            "flex-layout.row#desktop__home--section-eight"
+        ]
+    },
+    "flex-layout.row#desktop__home--section-eight": {
+        "title": "home-desktop-section-eight",
+        "children": [
+            "flex-layout.col#desktop__home-container--section-eight"
+        ],
+        "props": {
+            "blockClass": "container--section-eight-home"
+}
+    },
+    "flex-layout.col#desktop__home-container--section-eight":{
+        "children":[
+            "flex-layout.row#desktop__home--section-eight-title",
+            "flex-layout.row#desktop__home--section-eight-promos",
+            "flex-layout.row#desktop__home--section-eight-register",
+            "flex-layout.row#desktop__home--section-eight-frase"
+
+        ]
+    },
+    "flex-layout.row#desktop__home--section-eight-title":{
+        "title": "servicios category",
+        "children": [
+            "rich-text#category-title-servicios"
+        ]
+    },
+    "rich-text#category-title-servicios": {
+        "props": {
+            "blockClass": "category-title-servicios",
+            "text": "Servicios",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-4"
+        }
+    },
+    "flex-layout.row#desktop__home--section-eight-promos":{
+        "children":[
+            "flex-layout.col#desktop__home--section-eight-promo1",
+            "flex-layout.col#desktop__home--section-eight-promo2"
+        ]
+    },
+    "flex-layout.col#desktop__home--section-eight-promo1":{
+        "children":[
+            "image#desktop__home--section-eight-promo1"
+        ]
+    },
+    "image#desktop__home--section-eight-promo1":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-servicios-promo1.jpg"
+        }
+    },
+    "flex-layout.col#desktop__home--section-eight-promo2":{
+        "children":[
+            "image#desktop__home--section-eight-promo2"
+        ]
+    },
+    "image#desktop__home--section-eight-promo2":{
+        "props":{
+            "width":"100%",
+            "src":"assets/img/desktop-home/home-desktop-servicios-promo2.jpg"
+        }
+    },
+    "flex-layout.row#desktop__home--section-eight-register":{
+        "children": [
+            "image#desktop__home--section-eight--register"
+        ]
+    },
+    "image#desktop__home--section-eight--register": {
+        "props": {
+            "width": "100%",
+            "src": "assets/img/desktop-home/home-desktop-serviciosbanner1.jpg"
+        }
+    },
+    "flex-layout.row#desktop__home--section-eight-frase":{
+        "children":[
+            "rich-text#servicios-frase"
+        ]
+    },
+    "rich-text#servicios-frase":{
+        "props": {
+            "blockClass": "frase-servicios",
+            "text": "Supermercado y Tiendas Metro Colombia",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-4"
+        }
+    }
+
+}
